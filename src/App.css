@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.font-metal-mania {
+  font-family: 'Metal Mania', cursive;
+}
+
+.lightning-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.lightning-background canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
