@@ -85,7 +85,7 @@ const App = () => {
       <center ><PixelTransition 
       firstContent={
         <img
-          src="src/img/Gemini_Generated_Image_xtje8kxtje8kxtje.png"
+          src="/src/img/Gemini_Generated_Image_xtje8kxtje8kxtje.png"
           alt="default pixel transition content, a cat!"
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
         />
