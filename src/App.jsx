@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import CardNav from '/src/component/CardNav.jsx'
 import logo from '/src/img/pngimg.com - batman_PNG45.png';
+import batman from '/src/img/Gemini_Generated_Image_xtje8kxtje8kxtje.png';
 import Lightning from '/src/component/Lightning.jsx';
 import ClickSpark from '/src/component/ClickSpark.jsx';
 import PixelTransition from '/src/component/PixelTransition.jsx';
@@ -85,8 +86,8 @@ const App = () => {
       <center ><PixelTransition 
       firstContent={
         <img
-          src="./src/img/Gemini_Generated_Image_xtje8kxtje8kxtje.png"
-          alt="default pixel transition content, a cat!"
+          src={batman}
+          alt="Batman"
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
         />
       }
